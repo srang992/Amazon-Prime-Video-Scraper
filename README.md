@@ -1,2 +1,3 @@
-# Amazon-Prime-Video-Scraper
-Web Scraper made using Python, Scrapy and Selenium to scrape the movies and tv shows from the Amazon Prime Video website.
+# 🎬Amazon Prime Video Scraper
+![GitHub](https://img.shields.io/github/license/srang992/Amazon-Prime-Video-Scraper) 
+![GitHub last commit](https://img.shields.io/github/last-commit/srang992/Amazon-Prime-Video-Scraper)
