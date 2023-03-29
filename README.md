@@ -1,6 +1,8 @@
 # 🎬Amazon Prime Video Scraper
 ![GitHub](https://img.shields.io/github/license/srang992/Amazon-Prime-Video-Scraper) 
 ![GitHub last commit](https://img.shields.io/github/last-commit/srang992/Amazon-Prime-Video-Scraper)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/srang992/Amazon-Prime-Video-Scraper)
+![GitHub file size in bytes](https://img.shields.io/github/size/srang992/Amazon-Prime-Video-Scraper/chromedriver.exe?color=green&label=chromedriver%20size)
 
 ## 📚About
 This repository contains the Python script by which you can scrape the Movies and Tv shows according to their categories.
