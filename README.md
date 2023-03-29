@@ -1,14 +1,17 @@
 # 🎬Amazon Prime Video Scraper
 ![GitHub](https://img.shields.io/github/license/srang992/Amazon-Prime-Video-Scraper) 
 ![GitHub last commit](https://img.shields.io/github/last-commit/srang992/Amazon-Prime-Video-Scraper)
-![Depfu](https://img.shields.io/depfu/dependencies/github/srang992%20/%20Amazon-Prime-Video-Scraper)
 
-## About
+## 📚About
 This repository contains the Python script by which you can scrape the Movies and Tv shows according to their categories.
 
 ## 🤔How to Use?
 
-You have to clone this repository. After that, open the python script named AmazonPrimeSpider.py and change the values mentioned below.
+You have to clone this repository. Then, install the dependencies by running the below command in the terminal of the IDE.
+```bash
+pip install -r requirements.txt
+```
+After that, open the python script named AmazonPrimeSpider.py and change the values mentioned below.
 ### 👉Inside the Class
 - **name:** Which name do you want to give to your bot. If you like the default name, keep it.
 - **custom_settings:** it is a python dictionary containing all the important settings you should keep in mind while using the spider. You can add other settings if you want. The existing settings and why they are used are listed below.
@@ -51,9 +54,9 @@ You can download chromedriver from [here]("https://chromedriver.storage.googleap
 If you are done with this. Run the command below in the terminal of the ide.
 
 ```bash
-scrapy runspider location_of_the_spider -o file_name.json
+scrapy runspider AmazonPrimeSpider.py -o MoviesAmazon.json
 ```
-Replace the _location_of_the_spider_ with your location of the python script and give the _file_name_ according to your preference. This command will scrape title, description, season(if exists), rating, movie_year, age_rating of the movies/tv shows from the website.
+Make sure to remove the contents of _MoviesAmazon.json_ file before running the command.
 
 ## Load Scraped Data
 If you want to load the scraped data in Jupyter Notebook, you have to run the below code.
